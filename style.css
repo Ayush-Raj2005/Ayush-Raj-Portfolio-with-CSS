@@ -1,0 +1,127 @@
+body{
+    line-height: normal;
+    margin:0;
+    padding: 0;
+    color:#333;
+   
+}
+
+header{
+    background-color: #09314358;
+    padding: 25px;
+    text-align: center;
+    margin:10px;
+}
+header h1{
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-weight: bolder;
+   
+}
+header p{
+    font-size: large;
+    font-style: normal;
+    color:#13641e
+}
+header img{
+   display:block;
+   margin:20px auto;
+   border-radius: 50%;
+  
+   border:3px soild black;
+}
+nav{
+    background-color: #c69f59;
+    padding: 10px;
+    margin:10px;
+    margin-left:2px 0;
+}
+nav li{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    color:blue;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover{
+    background-color: #4a345e;
+    transform:scale(1.10);
+}
+section{
+    padding: 25px;
+    margin: 25px ;
+    margin-left: 2px 0;
+    background-color:rgba(120, 191, 173, 0.616);
+    box-shadow:0 0 10px rgba(0,0,0,0.1)
+}
+section h2{
+    color:#2c3e50;
+    font-size: larger;
+    border-bottom: 2px solid#3495db;
+    padding-bottom:10px;
+}
+section h4{
+    color:#3498db;
+}
+section p{
+    font-size: large;
+}
+section:hover {
+    transform:scale(1.025);
+    box-shadow:0 0 25px rgba(0,0,0,0.25);
+
+}
+
+.skill-category h4{
+    font-size: larger;
+    font-weight: 900;
+    color:#3495db
+}
+.skill-category ul{
+    font-size: large;
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+#education dt{
+    font-weight:bold;
+    margin-top:10px;
+}
+#education dl{
+    margin-left:20px;
+}
+#achievements ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#contact ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer{
+    background-color: #2f557c;
+    color: #d1d8da;
+    text-align: center;
+    padding:15px;
+    bottom: 0;
+    width:100%;
+}
+
+@media(max-width:768px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li{
+        margin:4px 0;
+    }
+}
